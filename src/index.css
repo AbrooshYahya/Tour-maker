@@ -1,0 +1,17 @@
+@import "tailwindcss";
+ @plugin "daisyui" {
+   themes: light --default
+ }
+@plugin "flowbite/plugin";
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+
+@theme {
+  --font-Abril: "Abril Fatface"; 
+}
